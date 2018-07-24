@@ -1,1 +1,2 @@
 
+yum -y install lrzsz
