@@ -1,9 +1,13 @@
 
 虚拟机配置静态IP
-vmware->编辑->虚拟网络编辑器
-虚拟机使用桥接模式，桥接到主机网卡
 
-修改配置文件/etc/sysconfig/network-scripts/ifcfg-ens33 
+* vmware->编辑->虚拟网络编辑器
+
+VMnet0虚拟机使用桥接模式，桥接到主机网卡
+
+* 编辑我的虚拟机设置，网络连接修改为桥接模式：直接连接物理网络
+
+* 修改配置文件/etc/sysconfig/network-scripts/ifcfg-ens33 
 ```
 TYPE=Ethernet
 PROXY_METHOD=none
