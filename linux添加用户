@@ -1,0 +1,6 @@
+添加用户
+useradd -m cymbal
+passwd cymbal
+
+随机码
+/usr/bin/openssl rand -hex 6
