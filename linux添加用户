@@ -4,3 +4,10 @@ passwd cymbal
 
 随机码
 /usr/bin/openssl rand -hex 6
+
+把某个用户改为 group(s)
+usermod -G groups cymbal
+
+把用户添加进入某个组(s）
+usermod -a -G groups cymbal
+
