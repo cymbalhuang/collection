@@ -32,3 +32,13 @@
    13  ssserver -c /etc/shadowsocks/config.json -d start
    
 ```
+防火墙端口：
+
+l2tp
+udp:500
+udp:4500
+udp:1701
+
+shadowsocks
+tcp:8388
+
