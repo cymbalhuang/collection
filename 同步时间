@@ -1,3 +1,0 @@
-yum -y install ntpdate
-
-ntpdate time.windows.com
